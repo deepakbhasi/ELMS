@@ -11,6 +11,7 @@
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
 	"presets" : {"url": "http://elms.edelweisstokio.in/moodle/login/index.php", "username": ""},
-    "skipssoconfirmation": "false",
+    "siteurl": "http://elms.edelweisstokio.in/moodle/login/index.php",
+	"skipssoconfirmation": "false",
     "forcedefaultlanguage": "false"
 }
