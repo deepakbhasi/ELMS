@@ -10,7 +10,7 @@
     "wsextservice" : "local_mobile",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "http://elms.edelweisstokio.in/moodle/login/index.php",
+	"presets" : {"url": "http://elms.edelweisstokio.in/moodle/login/index.php", "username": ""},
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false"
 }
