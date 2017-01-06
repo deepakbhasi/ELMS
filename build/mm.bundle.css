@@ -3062,7 +3062,7 @@ a.subdued {
   border-top: 1px solid transparent;
   border-bottom: 1px solid #ddd;
   background: #034EA1;
-  background-color: white;
+  background-color: #034EA1;;
   /* border-width: 1px will actually create 2 device pixels on retina */
   /* this nifty trick sets an actual 1px border on hi-res displays */
   background-size: 0; }
