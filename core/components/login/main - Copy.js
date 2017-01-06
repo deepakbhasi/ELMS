@@ -43,7 +43,6 @@ angular.module('mm.core.login', [])
         templateUrl: 'core/components/login/templates/sites.html',
         controller: 'mmLoginSitesCtrl',
         onEnter: function($mmLoginHelper, $mmSitesManager) {
-			$state.go('mm_login.credentials', {siteurl: 'http://elms.edelweisstokio.in/moodle'});
             // Skip this page if there are no sites yet.
             $mmSitesManager.hasNoSites().then(function() {
                 $mmLoginHelper.goToAddSite();
