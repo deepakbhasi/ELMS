@@ -3864,7 +3864,7 @@ a.subdued {
   border-style: solid;
   border-top: 1px solid transparent;
   border-bottom: 1px solid #ddd;
-  background-color: white;
+  background-color: blue;
   /* border-width: 1px will actually create 2 device pixels on retina */
   /* this nifty trick sets an actual 1px border on hi-res displays */
   background-size: 0; }
@@ -4278,6 +4278,8 @@ a.subdued {
 
 .bar-header {
   top: 0;
+    background: #034EA1;
+  background-color: #034EA1;
   border-top-width: 0;
   border-bottom-width: 1px; }
   .bar-header.has-tabs-top {
