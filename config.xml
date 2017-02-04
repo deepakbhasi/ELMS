@@ -3,8 +3,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.edelweisstokio.elearning"
-        versionCode = "2017"
-        version   = "3.2.0">
+        versionCode = "022017"
+        version   = "3.2.1">
     <name>ETLife ELMS</name>
 
     <description>
