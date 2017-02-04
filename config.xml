@@ -1,18 +1,18 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.edelweisstokio.elearning"
+        id        = "com.moodle.etlife"
         versionCode = "2017"
         version   = "3.2.0">
     <name>ETLife ELMS</name>
 
     <description>
-        Official ETLife ELMS App
+        ETLife ELMS Official Mobile App
     </description>
 
-    <author href="http://elms.edelweisstokio.in" email="elms@edelweisstokio.in">
-        Edelweiss Tokio Life
+    <author href="http://edelweisstokio.in" email="elms@edelweisstokio.in">
+        Deepak B S
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
@@ -138,7 +138,7 @@
     <gap:plugin name="ch.ti8m.documenthandler" spec="https://github.com/ti8m/DocumentHandler.git" source="git" />
 
     <gap:config-file platform="android" parent="/manifest">
-         <application android:debuggable="false" />
+         <application android:debuggable="true" />
     </gap:config-file>
 
     <!-- See MOBILE-892 -->
